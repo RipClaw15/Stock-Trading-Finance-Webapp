@@ -1,6 +1,6 @@
 # Stock Trading Finance Webapp
 
-The Stock Trading Finance Webapp is a comprehensive web application designed to provide users with tools and insights for managing their stock trading and investments effectively. 
+The Stock Trading Finance Web app is a comprehensive web application designed to provide users with tools and insights for managing their stock trading and investments effectively. 
 
 ## Video Demo
 
@@ -20,7 +20,7 @@ This project offers a wide range of features tailored to meet the needs of both 
 
 - **User Authentication and Security**: Ensure secure access to the platform through user authentication mechanisms, prioritizing data privacy and protection.
 
-Whether you're a seasoned investor or just getting started in the world of stock trading, the Stock Trading Finance Webapp offers a robust platform to empower users with the tools and information needed to navigate the stock market with confidence.
+Whether you're a seasoned investor or just getting started in the world of stock trading, the Stock Trading Finance Web app offers a robust platform to empower users with the tools and information needed to navigate the stock market with confidence.
 
 ## Getting Started
 
