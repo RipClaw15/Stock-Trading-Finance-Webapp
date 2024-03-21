@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+    <form action="/quote" method="post">
+        <div class="mb-3">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="symbol" name="symbol" placeholder="Symbol" type="text">
+        </div>
+        <button class="btn btn-primary" type="submit">Search for stock</button>
+
+            <p>  </p>
+            {{ message }}
+    </form>
+
+    {%if start_date %}
+
+    <div>
+        <h1>Stock Prices</h1>
+        <p>Start Date: {{ start_date }}</p>
+    </div>
+
+    <div>
+        <!-- Container for the Plotly chart -->
+        <div id="stockChart"></div>
+    </div>
+
+    <!-- Your script section -->
+    <script>
+        // Load the Plotly chart from the JSON string
+        var chartJson = {{ chart_json | safe }};
+        Plotly.newPlot('stockChart', chartJson.data, chartJson.layout);
+    </script>
+    {% endif %}
+{% endblock %}
