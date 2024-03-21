@@ -179,7 +179,7 @@ def quote():
         base_url = f"https://api.tiingo.com/tiingo/daily/{symbol}/prices"
 
         # Your Tiingo API token
-        api_token = "2e458eff1fc1371dd111fc9362670fd4b7731d23"
+        api_token = "get your own"
 
         # Set the start date for the last 6 months
         start_date = (datetime.now() - timedelta(days=180)).strftime('%Y-%m-%d')
