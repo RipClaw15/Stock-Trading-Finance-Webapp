@@ -4,7 +4,7 @@ The Stock Trading Finance Webapp is a comprehensive web application designed to 
 
 ## Video Demo
 
-[![Finance](http://img.youtube.com/vi/AhVKZpdmugk)](http://www.youtube.com/watch?v=AhVKZpdmugk)
+[![Finance](http://img.youtube.com/vi/AhVKZpdmugk/0.jpg)](http://www.youtube.com/watch?v=AhVKZpdmugk)
 
 ## Key Features
 
